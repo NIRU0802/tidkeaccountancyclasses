@@ -1,0 +1,136 @@
+@import "tailwindcss";
+@config "../../tailwind.config.ts";
+
+/* ================= ROOT COLORS ================= */
+:root {
+  --foreground-rgb: 17, 24, 39;
+  /* gray-900 */
+  --background-rgb: 249, 250, 251;
+  /* gray-50 */
+
+  /* Brand Colors */
+  --primary: #0B1F3A;
+  --accent: #FBBF24;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
+
+/* ================= BASE STYLES ================= */
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Better font rendering */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ================= TYPOGRAPHY SYSTEM ================= */
+
+/* Headings → Premium feel */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+/* Body → Clean readability */
+body,
+p,
+span {
+  font-family: var(--font-body);
+}
+
+/* Text balance (modern typography) */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* ================= PREMIUM UI UTILITIES ================= */
+
+@layer utilities {
+
+  /* Glass effect */
+  .glass-panel {
+    @apply bg-white/70 backdrop-blur-xl border border-white/20 shadow-lg;
+  }
+
+  /* Premium soft shadow */
+  .premium-shadow {
+    @apply shadow-[0_10px_40px_rgba(0,0,0,0.08)];
+  }
+
+  /* Gold gradient text (premium highlight) */
+  .text-gold {
+    background: linear-gradient(90deg, #FBBF24, #d97706);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Subtle hover lift */
+  .hover-lift {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-xl;
+  }
+
+  /* Section spacing system */
+  .section-padding {
+    @apply py-16 md:py-20;
+  }
+
+  /* Container system */
+  .container-custom {
+    @apply max-w-7xl mx-auto px-6;
+  }
+}
+
+/* ================= PREMIUM SCROLLBAR ================= */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* ================= SELECTION COLOR ================= */
+
+::selection {
+  background: #FBBF24;
+  color: #0B1F3A;
+}

@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "name": "CA Ramesh Kadam",
+      "batch": "Batch 2018",
+      "status": "Chartered Accountant",
+      "company": "Deloitte",
+      "image": "https://i.pravatar.cc/300?img=33",
+      "successLine": "Secured AIR 45 in CA Finals.",
+      "review": "Tidke Sir made concepts so clear that CA felt structured, not stressful."
+    },
+    {
+      "id": 2,
+      "name": "Aditi Sharma",
+      "batch": "Batch 2020",
+      "status": "MBA Candidate",
+      "company": "IIM Ahmedabad",
+      "image": "https://i.pravatar.cc/300?img=32",
+      "successLine": "99.8 percentile in CAT 2023.",
+      "review": "Mock tests here built my confidence beyond expectations."
+    },
+    {
+      "id": 3,
+      "name": "Vikram Singh",
+      "batch": "Batch 2017",
+      "status": "Financial Analyst",
+      "company": "Goldman Sachs",
+      "image": "https://i.pravatar.cc/300?img=53",
+      "successLine": "Leading investment strategies in Mumbai.",
+      "review": "The fundamentals I learned here still help me daily in finance."
+    },
+    {
+      "id": 4,
+      "name": "Pooja Mehta",
+      "batch": "Batch 2019",
+      "status": "SRCC Graduate",
+      "company": "Delhi University",
+      "image": "https://i.pravatar.cc/300?img=47",
+      "successLine": "University rank holder in B.Com (Hons).",
+      "review": "Discipline + clarity = success. This place gave me both."
+    },
+    {
+      "id": 5,
+      "name": "Rohit Patil",
+      "batch": "Batch 2016",
+      "status": "CA Final",
+      "company": "EY",
+      "image": "https://i.pravatar.cc/300?img=12",
+      "successLine": "Working in Big 4 firm.",
+      "review": "Strong basics here made corporate life much easier."
+    }
+  ]
