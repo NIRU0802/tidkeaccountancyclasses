@@ -19,7 +19,7 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title:
-    "Best Commerce Coaching Classes in Nashik & Satpur | 11th 12th Commerce | Tidke Accountancy Classes",
+    "Tidke Accountancy Classes Best",
 
   description:
     "Tidke Accountancy Classes is a leading commerce coaching institute in Nashik & Satpur. Expert coaching for 11th Commerce, 12th Commerce, and CA Foundation with conceptual clarity, discipline, and proven results.",
