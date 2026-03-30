@@ -5,6 +5,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
+
+
 // Body font (clean, readable)
 const inter = Inter({
   subsets: ["latin"],
